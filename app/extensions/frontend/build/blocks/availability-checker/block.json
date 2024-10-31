@@ -1,0 +1,23 @@
+{
+  "apiVersion": 2,
+  "name": "qs-reserving/availability-checker",
+  "version": "0.1.0",
+  "title": "Reserving Availability checker",
+  "category": "widgets",
+  "icon": "index-card",
+  "description": "Frontend Availability Checker",
+  "attributes": {
+    "textAlign": {
+      "type": "string",
+      "default": "left"
+    }
+  },
+  "supports": {
+    "html": true
+  },
+  "textdomain": "reserving",
+  "render_callback": "reserving_availabil_checker_render_callback",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

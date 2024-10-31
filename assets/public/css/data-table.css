@@ -1,0 +1,114 @@
+.reserving_order_action_btns button span svg {
+  width: 20px;
+  fill: green;
+  margin-left: 10px;
+}
+
+.error,
+.text-danger {
+  color: brown;
+}
+.order_total {
+  text-align: right;
+  padding: 0 20px;
+}
+.loader {
+  min-height: 30px;
+}
+a.reserving_print_pdf {
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+div#reserving_order_details_modal .customer_info {
+  display: flex;
+  gap: 50px;
+}
+.modal-content a.custom-logo-link img {
+  max-width: 100%;
+}
+.dataTables_wrapper .dataTables_length select {
+  min-width: 60px;
+}
+table.dataTable tr {
+  border-bottom: 1px solid rgb(45, 45, 45);
+}
+button#assign_delivery_btn {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.reserving_order_filter_btns,
+.reserving_order_action_btns {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px 10px;
+}
+.reserving_order_filter_btns button,
+#orders_table button,
+.reserving_order_action_btns button {
+  position: relative;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.reserving_order_filter_btns span.count {
+  background: #505050;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: -14px;
+  width: 30px;
+  height: 30px;
+  right: -14px;
+}
+table.dataTable {
+  text-align: center;
+}
+.assign_delivery {
+  margin: 40px 0;
+}
+/* The Modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 991px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.reserving-frontdash--pdf--section{
+   display :none; 
+}
+

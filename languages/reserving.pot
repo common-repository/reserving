@@ -1,0 +1,1868 @@
+# Copyright (C) 2024 quomodosoft
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Reserving 1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/reserving\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-23T05:24:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: reserving\n"
+
+#. Plugin Name of the plugin
+#: C:\laragon\www\reserving\wp-content\plugins\reserving\reserving.php
+#: app/configs/app.php:5
+#: app/extensions/elementor/Elementor.php:20
+#: packages/Options/Settings_Api.php:99
+#: packages/Options/Settings_Api.php:101
+msgid "Reserving"
+msgstr ""
+
+#. Description of the plugin
+#: C:\laragon\www\reserving\wp-content\plugins\reserving\reserving.php
+msgid "Online Food Ordering & Reservation"
+msgstr ""
+
+#. Author of the plugin
+#: C:\laragon\www\reserving\wp-content\plugins\reserving\reserving.php
+msgid "quomodosoft"
+msgstr ""
+
+#. Author URI of the plugin
+#: C:\laragon\www\reserving\wp-content\plugins\reserving\reserving.php
+msgid "https://quomodosoft.com"
+msgstr ""
+
+#: app/backend/cpt/Branches.php:23
+#: app/backend/cpt/Branches.php:29
+msgid "Branches"
+msgstr ""
+
+#: app/backend/cpt/Branches.php:29
+#: app/backend/pages/views/order/order_table.php:55
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:112
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:70
+msgid "Branch"
+msgstr ""
+
+#: app/backend/cpt/Delivery_Area.php:20
+#: app/backend/cpt/Delivery_Area.php:26
+msgid "Delivery Areas"
+msgstr ""
+
+#: app/backend/cpt/Delivery_Area.php:26
+msgid "Delivery Area"
+msgstr ""
+
+#: app/backend/cpt/Tables.php:21
+#: app/backend/cpt/Tables.php:27
+msgid "Tables"
+msgstr ""
+
+#: app/backend/cpt/Tables.php:27
+msgid "Table"
+msgstr ""
+
+#: app/backend/pages/Dashboard.php:20
+msgid "Required Data Not Found"
+msgstr ""
+
+#: app/backend/pages/Orders.php:122
+#: app/backend/pages/views/dashboard/dashboard.php:125
+#: app/backend/pages/views/dashboard/dashboard.php:134
+#: app/backend/pages/views/order/order_details.php:89
+#: app/backend/pages/views/order/order_table.php:41
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_details.php:55
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:103
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_details.php:45
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:61
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_details.php:48
+msgid "Delivery Completed"
+msgstr ""
+
+#: app/backend/pages/Orders.php:178
+#: app/extensions/frontend/shortcodes/frontend_dashboard/BranchManager.php:182
+#: app/extensions/frontend/shortcodes/frontend_dashboard/DeliveryMan.php:132
+#: app/extensions/frontend/shortcodes/frontend_dashboard/KitchenManager.php:155
+msgid "View Details"
+msgstr ""
+
+#: app/backend/pages/Orders.php:336
+#: app/backend/pages/Orders.php:382
+#: app/backend/pages/views/dashboard/dashboard.php:28
+#: app/backend/pages/views/order/order_table.php:16
+#: app/configs/options/menu/settings-sections.php:210
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:51
+msgid "New Order"
+msgstr ""
+
+#: app/backend/pages/Orders.php:345
+#: app/backend/pages/Orders.php:383
+#: app/backend/pages/views/dashboard/dashboard.php:61
+#: app/backend/pages/views/order/order_table.php:22
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:64
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_details.php:42
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:50
+msgid "Cooking Processing"
+msgstr ""
+
+#: app/backend/pages/Orders.php:354
+#: app/backend/pages/Orders.php:384
+#: app/backend/pages/views/dashboard/dashboard.php:85
+#: app/backend/pages/views/order/order_details.php:74
+#: app/backend/pages/views/order/order_table.php:29
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_details.php:47
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:77
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_details.php:43
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:63
+msgid "Cooking Completed"
+msgstr ""
+
+#: app/backend/pages/Orders.php:363
+#: app/backend/pages/Orders.php:385
+#: app/backend/pages/views/order/order_details.php:83
+#: app/backend/pages/views/order/order_table.php:35
+#: app/configs/options/menu/settings-sections.php:316
+#: app/configs/options/menu/settings-sections.php:354
+#: app/configs/options/menu/settings-sections.php:381
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_details.php:51
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:90
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_details.php:41
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:48
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_details.php:45
+msgid "On The Way"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:3
+msgid "Reserving | Food Delivery WooCommerce Addon"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:16
+msgid "Total Orders"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:37
+msgid "New Orders"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:52
+msgid "Processing"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:76
+msgid "cooking complete"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:100
+msgid "on the way"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:110
+msgid "On the way"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:158
+msgid "Order Cancelled"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:172
+msgid "Total Branches"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:189
+msgid "Total Delivery Area"
+msgstr ""
+
+#: app/backend/pages/views/dashboard/dashboard.php:213
+msgid "Total Customers"
+msgstr ""
+
+#: app/backend/pages/views/order/order_details.php:11
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_details.php:10
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_details.php:10
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_details.php:10
+msgid "Print PDF"
+msgstr ""
+
+#: app/backend/pages/views/order/order_details.php:50
+#: app/configs/options/menu/settings-sections.php:292
+#: app/configs/options/menu/settings-sections.php:342
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_details.php:39
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_details.php:40
+msgid "Cancel Order"
+msgstr ""
+
+#: app/backend/pages/views/order/order_details.php:64
+#: app/configs/options/menu/settings-sections.php:298
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_details.php:43
+msgid "Send to Cook"
+msgstr ""
+
+#: app/backend/pages/views/order/order_table.php:3
+msgid "Orders Table"
+msgstr ""
+
+#: app/backend/pages/views/order/order_table.php:10
+#: app/configs/options/menu/settings-sections.php:200
+msgid "All Order"
+msgstr ""
+
+#: app/backend/pages/views/order/order_table.php:52
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:109
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:69
+msgid "Order ID "
+msgstr ""
+
+#: app/backend/pages/views/order/order_table.php:53
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:110
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:68
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:70
+msgid "Date Created"
+msgstr ""
+
+#: app/backend/pages/views/order/order_table.php:57
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:71
+msgid "Delivery/Pickup/Booking Date"
+msgstr ""
+
+#: app/backend/pages/views/order/order_table.php:58
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:116
+#: app/Installer.php:23
+msgid "Delivery Man"
+msgstr ""
+
+#: app/backend/pages/views/order/order_table.php:59
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:118
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:72
+msgid "Order Status "
+msgstr ""
+
+#: app/backend/pages/views/order/order_table.php:60
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:119
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:73
+msgid "View Order "
+msgstr ""
+
+#: app/backend/pages/views/order/print_pdf.php:34
+msgid "Order ID: #"
+msgstr ""
+
+#: app/backend/pages/views/order/print_pdf.php:80
+#: app/extensions/frontend/order/Order_Modify.php:208
+msgid "Tables:"
+msgstr ""
+
+#: app/backend/pages/views/order/print_pdf.php:97
+msgid "Item Name"
+msgstr ""
+
+#: app/backend/pages/views/order/print_pdf.php:98
+#: app/extensions/frontend/cart/Cart_Modify.php:41
+#: app/extensions/frontend/checkout/Checkout_Modify.php:74
+#: app/extensions/frontend/shortcodes/Product_Single.php:37
+msgid "Extra Items"
+msgstr ""
+
+#: app/backend/pages/views/order/print_pdf.php:99
+msgid "Item Quantity"
+msgstr ""
+
+#: app/backend/pages/views/order/print_pdf.php:100
+msgid "Item Total Price"
+msgstr ""
+
+#: app/base/cpt/Custom_Post.php:16
+#: app/base/cpt/Custom_Taxonomy.php:17
+#: app/base/cpt/Custom_Taxonomy.php:18
+msgid "Add New "
+msgstr ""
+
+#: app/base/cpt/Custom_Post.php:17
+#: app/base/cpt/Custom_Taxonomy.php:19
+msgid "Edit "
+msgstr ""
+
+#: app/base/cpt/Custom_Post.php:18
+msgid "New "
+msgstr ""
+
+#: app/base/cpt/Custom_Post.php:19
+msgid "View "
+msgstr ""
+
+#: app/base/cpt/Custom_Post.php:20
+#: app/base/cpt/Custom_Taxonomy.php:22
+msgid "Search "
+msgstr ""
+
+#: app/base/cpt/Custom_Post.php:21
+#: app/base/cpt/Custom_Post.php:22
+msgid "No "
+msgstr ""
+
+#: app/base/cpt/Custom_Post.php:23
+#: app/base/cpt/Custom_Taxonomy.php:25
+#: app/base/cpt/Custom_Taxonomy.php:27
+msgid "Parent "
+msgstr ""
+
+#: app/base/cpt/Custom_Taxonomy.php:20
+msgid "Update "
+msgstr ""
+
+#: app/base/cpt/Custom_Taxonomy.php:21
+msgid "Add or remove "
+msgstr ""
+
+#: app/base/cpt/Custom_Taxonomy.php:23
+msgid "Popular "
+msgstr ""
+
+#: app/base/cpt/Custom_Taxonomy.php:24
+msgid "All "
+msgstr ""
+
+#: app/base/cpt/Custom_Taxonomy.php:26
+msgid "Choose from the most used "
+msgstr ""
+
+#: app/configs/menus.php:5
+msgid "Reserving Orders"
+msgstr ""
+
+#: app/configs/menus.php:6
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:17
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:15
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:15
+msgid "Orders"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:27
+msgid "Multi Branch"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:28
+msgid "Single Branch"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:35
+msgid "Logo in Order Details"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:42
+msgid "Grid Ajax Add to Cart"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:73
+#: app/extensions/elementor/widgets/frontend_dashboard.php:774
+msgid "Show Login Form"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:81
+msgid "Redirect Dashboard When Login?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:98
+msgid "Login Button Text"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:107
+msgid "Login Message"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:111
+msgid "Provide Login Button Heading Text "
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:121
+msgid "Advanced Settings"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:122
+msgid "After Login you can manage Front Dashboard Option"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:126
+msgid "Logout Link ?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:135
+msgid "Heading Username?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:144
+msgid "Sub Heading"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:148
+msgid "Provide Sub Heading "
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:154
+msgid "Table Heading?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:162
+msgid "Date Filter?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:171
+msgid "Date Filter Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:184
+msgid "Front Navigation"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:185
+msgid "Here you can manage Front Dashboard Icons"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:189
+msgid "Navigation Icon?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:220
+msgid "Cooking Process Icon"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:230
+msgid "Cooking Complete Icon"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:240
+msgid "On the Way"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:250
+#: app/configs/options/menu/settings-sections.php:322
+#: app/configs/options/menu/settings-sections.php:360
+#: app/configs/options/menu/settings-sections.php:387
+msgid "Delivery Complete"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:282
+msgid "Branch Manager Order Management Capabilities"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:283
+#: app/configs/options/posts/branch.php:44
+msgid "Here you can manage Branch Manager capabilities to manage your orders."
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:286
+#: app/configs/options/menu/settings-sections.php:336
+#: app/configs/options/menu/settings-sections.php:375
+msgid "Print Order"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:304
+msgid "Cooking Complete"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:310
+#: app/configs/options/menu/settings-sections.php:348
+msgid "Assign Delivery Man"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:332
+msgid "Kitchen Manager Order Management Capabilities"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:333
+msgid "Here you can manage Kitchen Manager capabilities to manage your orders."
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:371
+msgid "Delivery Man Order Management Capabilities"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:372
+msgid "Here you can manage Delivery Man capabilities to manage your orders."
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:401
+msgid "Time"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:408
+msgid "Time Format"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:410
+msgid "Select Time Format"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:417
+msgid "Time Slot"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:420
+msgid "in minutes (default: 60 min)"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:429
+msgid "Restaurant Location"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:437
+#: app/configs/options/posts/branch.php:107
+#: app/configs/options/posts/branch.php:109
+msgid "Opening Time"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:444
+#: app/configs/options/posts/branch.php:114
+#: app/configs/options/posts/branch.php:116
+msgid "Closing Time"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:457
+#: app/extensions/elementor/widgets/availability_checker.php:10
+msgid "Availability Checker"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:471
+msgid "Pop up"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:472
+msgid "Direct Show"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:476
+msgid "Default Active"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:486
+msgid "Nav Icons"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:487
+msgid "Manage Home delivery Nav settings here."
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:493
+msgid "Home Delivery Icon"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:501
+msgid "PickUp Icon"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:510
+msgid "InRestaurent Icon"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:521
+#: app/configs/options/menu/settings-sections.php:553
+#: app/extensions/elementor/widgets/availability_checker.php:366
+msgid "Home Delivery"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:522
+msgid "Manage Home delivery settings here."
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:525
+msgid "Checker Form Title?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:531
+msgid "Activate Home Delivery"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:537
+msgid "Delivery Info Heading?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:544
+#: app/configs/options/menu/settings-sections.php:546
+#: app/configs/options/menu/settings-sections.php:1044
+msgid "Delivery Info"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:551
+#: app/configs/options/menu/settings-sections.php:573
+#: app/configs/options/menu/settings-sections.php:594
+msgid "Tab Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:562
+msgid "Pickup"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:563
+msgid "Manage Pickup settings here"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:566
+msgid "Activate Pickup"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:583
+#: app/configs/options/menu/settings-sections.php:596
+#: app/extensions/frontend/order/Order_Modify.php:184
+msgid "In Restaurant"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:584
+msgid "Manage In Restaurant settings here"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:587
+msgid "Activate In Restaurant"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:604
+msgid "Other Labels"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:610
+msgid "Checker Heading"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:612
+#: app/configs/options/menu/settings-sections.php:619
+#: app/configs/options/menu/settings-sections.php:633
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/delivery_checker.php:14
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/delivery_checker.php:30
+msgid "Check Availability"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:617
+msgid "Open Button Text"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:624
+msgid "Close Button Text"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:626
+msgid "Close"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:631
+msgid "Check Availability Button Text"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:638
+msgid "Start Order Button Text"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:640
+msgid "Start Order"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:645
+msgid "Start Order Button Link"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:652
+msgid "Update Info Button Text"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:654
+msgid "Update Info"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:659
+msgid "Select Branch Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:661
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/delivery_checker.php:3
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/delivery_checker.php:5
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/in_rest_checker.php:2
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/in_rest_checker.php:4
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/pickup_checker.php:2
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/pickup_checker.php:4
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/delivery_checker.php:17
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/delivery_checker.php:19
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/in_rest_checker.php:2
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/in_rest_checker.php:4
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/pickup_checker.php:2
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/pickup_checker.php:4
+msgid "Select Branch"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:666
+msgid "Select Location Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:668
+msgid "Select Location"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:673
+msgid "Select Delivery Date Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:675
+msgid "Select Delivery Date"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:680
+msgid "Select Delivery Time Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:682
+msgid "Select Delivery Time"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:687
+msgid "Select Pickup Date Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:689
+msgid "Select Pickup Date"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:694
+msgid "Select Pickup Time Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:696
+msgid "Select Pickup Time"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:701
+msgid "Select Booking Date Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:703
+msgid "Select Booking Date"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:708
+msgid "Select Start Time Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:710
+msgid "Select Start Time"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:715
+msgid "Select End Time Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:717
+msgid "Select End Time"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:722
+msgid "Select Tables Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:724
+msgid "Select Tables"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:739
+msgid "Activate Quick View"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:747
+msgid "Extra Item Only"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:755
+msgid "Disable Default Add to Cart ?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:763
+msgid "Quick View Text"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:772
+msgid "Quick View Icon"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:782
+msgid "Hide breadcrumb"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:790
+msgid "Hide Header"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:796
+msgid "Hide Footer"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:803
+msgid "Disable Related product"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:810
+msgid "Disable UpSell product"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:819
+msgid "Cart Tips"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:827
+msgid "Cart Tip"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:835
+msgid "Checkout Page position"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:840
+#: app/configs/options/menu/settings-sections.php:957
+msgid "After Checkout Form"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:841
+#: app/configs/options/menu/settings-sections.php:958
+msgid "Before Order Submit"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:842
+#: app/configs/options/menu/settings-sections.php:959
+msgid "Before Payment Option"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:843
+#: app/configs/options/menu/settings-sections.php:960
+msgid "Before Order Review"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:844
+#: app/configs/options/menu/settings-sections.php:847
+#: app/configs/options/menu/settings-sections.php:961
+#: app/configs/options/menu/settings-sections.php:964
+msgid "Before Customer Details"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:845
+#: app/configs/options/menu/settings-sections.php:962
+msgid "After Order Note"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:846
+#: app/configs/options/menu/settings-sections.php:963
+msgid "Before Order Note"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:848
+#: app/configs/options/menu/settings-sections.php:965
+msgid "Before Checkout Form"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:849
+#: app/configs/options/menu/settings-sections.php:866
+#: app/configs/options/menu/settings-sections.php:966
+#: app/extensions/elementor/widgets/availability_checker.php:190
+#: app/extensions/elementor/widgets/availability_checker.php:350
+#: app/extensions/elementor/widgets/availability_checker.php:622
+#: app/extensions/elementor/widgets/availability_checker.php:961
+#: app/extensions/elementor/widgets/frontend_dashboard.php:223
+#: app/extensions/elementor/widgets/frontend_dashboard.php:359
+msgid "None"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:854
+msgid "Cart Page position"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:859
+msgid "Before Total"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:860
+msgid "Before Cart"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:861
+msgid "Before Cart Table"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:862
+msgid "After Coupon"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:863
+msgid "After Cart Table"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:864
+msgid "Cart collaterals"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:865
+msgid "Checkout Button"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:872
+msgid "Enable Heading?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:880
+msgid "Title"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:882
+msgid "Would you like to give a tip?"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:887
+msgid "Enable Percantage Type"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:895
+msgid "Percantage(%) option"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:897
+msgid "Percantage(%)"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:904
+msgid "Fixed Option"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:906
+msgid "Fixed"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:912
+msgid "Button Add"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:914
+msgid "Add tip"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:920
+msgid "Button Remove"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:922
+msgid "Clear"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:928
+msgid "Tip Heading Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:930
+msgid "Tip"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:944
+msgid "Checkout"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:952
+msgid "Delivery Info Location"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:971
+msgid "ThankYou Page Audio"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:980
+msgid "ThankYou Audio"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:989
+msgid "Print"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:997
+msgid "Show Company Logo"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1003
+msgid "Show Company Title"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1009
+msgid "Show Billing Info"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1016
+msgid "Billing Info Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1018
+msgid "Billing Info"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1022
+msgid "Show Shipping Info"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1029
+msgid "Shipping Info Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1031
+msgid "Shipping Info"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1035
+msgid "Show Delivery Info"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1042
+msgid "Delivery Info Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1048
+msgid "Show Order Items"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1054
+msgid "Show Shipping Cost"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1061
+msgid "Shipping cost Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1063
+msgid "Shipping cost"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1067
+msgid "Show Total Cost"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1074
+msgid "Total cost Label"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1076
+msgid "Total cost"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1084
+msgid "Styles"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1097
+msgid "Availability Checker Styles"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1098
+msgid "Here you can give some styles to the Availability Checker Form."
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1102
+msgid "Checker Form Background Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1109
+msgid "Checker Form Title Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1116
+msgid "Open Button Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1123
+msgid "Open Button BG Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1130
+msgid "Open Button Hover Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1137
+msgid "Open Button Hover BG Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1144
+msgid "Close Button Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1151
+msgid "Close Button BG Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1158
+msgid "Close Button Hover Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1165
+msgid "Close Button Hover BG Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1172
+msgid "Tabs Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1179
+msgid "Tabs Background Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1186
+msgid "Tabs Hover Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1193
+msgid "Tabs Hover BG Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1200
+msgid "Tabs Active BG Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1207
+msgid "Checker Button Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1214
+msgid "Checker Button BG Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1221
+msgid "Start Order Button Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1228
+msgid "Start Order Button BG Color"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1243
+msgid "Shortcodes"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1254
+msgid "Availability"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1263
+msgid "Delivey Info (In Checkout page)"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1271
+msgid "Frontend Dashboard"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1279
+msgid "Restaurent Slider"
+msgstr ""
+
+#: app/configs/options/menu/settings-sections.php:1287
+msgid "Product Category Slider"
+msgstr ""
+
+#: app/configs/options/menu/settings.php:9
+#: app/configs/options/menu/settings.php:10
+#: packages/Options/Texonomy_Api.php:49
+msgid "Reserving Settings"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:31
+#: app/configs/options/posts/branch.php:43
+msgid "Branch Information"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:48
+msgid "Discount Offer(%)"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:54
+msgid "Total Food Items"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:61
+#: app/Installer.php:15
+msgid "Branch Manager"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:68
+#: app/Installer.php:19
+msgid "Kitchen Manager"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:70
+msgid "Select kitchen Manager"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:79
+#: app/extensions/frontend/order/Order_Modify.php:173
+msgid "Delivery Information"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:80
+msgid "Here you can manage Delivery Manager capabilities."
+msgstr ""
+
+#: app/configs/options/posts/branch.php:89
+msgid "Delivery Men"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:102
+msgid "Time & Location"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:103
+msgid "Here you can manage Date And Time."
+msgstr ""
+
+#: app/configs/options/posts/branch.php:110
+msgid "Here you can manage restuarent Time."
+msgstr ""
+
+#: app/configs/options/posts/branch.php:121
+msgid "Branch Location"
+msgstr ""
+
+#: app/configs/options/posts/branch.php:125
+msgid "Here you can manage address."
+msgstr ""
+
+#: app/configs/options/posts/product.php:5
+msgid "Reserving Extra Items"
+msgstr ""
+
+#: app/configs/options/posts/product.php:13
+msgid "Add Extra Items"
+msgstr ""
+
+#: app/configs/options/posts/product.php:19
+msgid "Name"
+msgstr ""
+
+#: app/configs/options/posts/product.php:26
+msgid "Price"
+msgstr ""
+
+#: app/configs/options/posts/product.php:32
+msgid "Enable Quantity"
+msgstr ""
+
+#: app/configs/options/posts/product.php:38
+msgid "Quantity Unit"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:47
+msgid "Box"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:56
+#: app/extensions/elementor/widgets/availability_checker.php:224
+#: app/extensions/elementor/widgets/availability_checker.php:450
+#: app/extensions/elementor/widgets/availability_checker.php:512
+#: app/extensions/elementor/widgets/availability_checker.php:574
+#: app/extensions/elementor/widgets/availability_checker.php:682
+#: app/extensions/elementor/widgets/availability_checker.php:745
+#: app/extensions/elementor/widgets/availability_checker.php:809
+#: app/extensions/elementor/widgets/availability_checker.php:872
+#: app/extensions/elementor/widgets/availability_checker.php:913
+#: app/extensions/elementor/widgets/frontend_dashboard.php:71
+#: app/extensions/elementor/widgets/frontend_dashboard.php:482
+msgid "Background"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:66
+#: app/extensions/elementor/widgets/availability_checker.php:176
+#: app/extensions/elementor/widgets/availability_checker.php:234
+#: app/extensions/elementor/widgets/availability_checker.php:459
+#: app/extensions/elementor/widgets/availability_checker.php:521
+#: app/extensions/elementor/widgets/availability_checker.php:584
+#: app/extensions/elementor/widgets/availability_checker.php:923
+#: app/extensions/elementor/widgets/frontend_dashboard.php:723
+msgid "Border"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:74
+#: app/extensions/elementor/widgets/availability_checker.php:254
+#: app/extensions/elementor/widgets/availability_checker.php:275
+#: app/extensions/elementor/widgets/availability_checker.php:467
+#: app/extensions/elementor/widgets/availability_checker.php:529
+#: app/extensions/elementor/widgets/availability_checker.php:592
+#: app/extensions/elementor/widgets/availability_checker.php:658
+#: app/extensions/elementor/widgets/availability_checker.php:713
+#: app/extensions/elementor/widgets/availability_checker.php:777
+#: app/extensions/elementor/widgets/availability_checker.php:840
+#: app/extensions/elementor/widgets/availability_checker.php:931
+#: app/extensions/elementor/widgets/frontend_dashboard.php:174
+#: app/extensions/elementor/widgets/frontend_dashboard.php:546
+#: app/extensions/elementor/widgets/frontend_dashboard.php:703
+msgid "Padding"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:86
+#: app/extensions/elementor/widgets/frontend_dashboard.php:101
+#: app/extensions/elementor/widgets/frontend_dashboard.php:446
+#: app/extensions/elementor/widgets/frontend_dashboard.php:660
+msgid "Width"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:110
+msgid "Max Width"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:136
+#: app/extensions/elementor/widgets/frontend_dashboard.php:753
+msgid "Heading"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:144
+#: app/extensions/elementor/widgets/availability_checker.php:310
+#: app/extensions/elementor/widgets/frontend_dashboard.php:649
+msgid "Color"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:163
+#: app/extensions/elementor/widgets/availability_checker.php:242
+#: app/extensions/elementor/widgets/availability_checker.php:479
+#: app/extensions/elementor/widgets/availability_checker.php:541
+#: app/extensions/elementor/widgets/availability_checker.php:604
+#: app/extensions/elementor/widgets/availability_checker.php:646
+#: app/extensions/elementor/widgets/availability_checker.php:701
+#: app/extensions/elementor/widgets/availability_checker.php:765
+#: app/extensions/elementor/widgets/availability_checker.php:828
+#: app/extensions/elementor/widgets/availability_checker.php:943
+#: app/extensions/elementor/widgets/frontend_dashboard.php:155
+#: app/extensions/elementor/widgets/frontend_dashboard.php:526
+#: app/extensions/elementor/widgets/frontend_dashboard.php:683
+msgid "Margin"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:184
+#: app/extensions/elementor/widgets/availability_checker.php:616
+#: app/extensions/elementor/widgets/availability_checker.php:955
+msgid "Display"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:188
+#: app/extensions/elementor/widgets/availability_checker.php:620
+#: app/extensions/elementor/widgets/availability_checker.php:959
+msgid "Inline"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:189
+#: app/extensions/elementor/widgets/availability_checker.php:621
+#: app/extensions/elementor/widgets/availability_checker.php:960
+#: app/extensions/elementor/widgets/frontend_dashboard.php:360
+msgid "Block"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:204
+msgid "Tab"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:216
+msgid "Wrapper"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:268
+msgid "Item"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:287
+#: app/extensions/elementor/widgets/frontend_dashboard.php:341
+msgid "margin"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:299
+msgid "BgColor"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:322
+msgid "Active BgColor"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:333
+msgid "Active Color"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:344
+msgid "Float"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:348
+#: app/extensions/elementor/widgets/frontend_dashboard.php:219
+#: app/extensions/elementor/widgets/frontend_dashboard.php:800
+msgid "Left"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:349
+#: app/extensions/elementor/widgets/frontend_dashboard.php:227
+#: app/extensions/elementor/widgets/frontend_dashboard.php:808
+msgid "Right"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:378
+msgid "Branch label"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:385
+#: app/extensions/elementor/widgets/availability_checker.php:500
+#: app/extensions/elementor/widgets/availability_checker.php:562
+#: app/extensions/elementor/widgets/availability_checker.php:670
+#: app/extensions/elementor/widgets/availability_checker.php:725
+#: app/extensions/elementor/widgets/availability_checker.php:789
+#: app/extensions/elementor/widgets/availability_checker.php:852
+#: app/extensions/elementor/widgets/availability_checker.php:893
+#: app/extensions/elementor/widgets/frontend_dashboard.php:60
+#: app/extensions/elementor/widgets/frontend_dashboard.php:249
+#: app/extensions/elementor/widgets/frontend_dashboard.php:322
+#: app/extensions/elementor/widgets/frontend_dashboard.php:469
+#: app/extensions/elementor/widgets/frontend_dashboard.php:590
+msgid "Text Color"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:406
+msgid "Branch Input"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:414
+msgid "Label Color"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:426
+msgid "Input Color"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:493
+msgid "Branch Select"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:555
+#: app/extensions/elementor/widgets/frontend_dashboard.php:39
+msgid "Button"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:638
+msgid "Delivery date"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:693
+msgid "PickUp Time"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:757
+msgid "Dine Start Time"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:820
+msgid "Dine End Time"
+msgstr ""
+
+#: app/extensions/elementor/widgets/availability_checker.php:884
+msgid "Order Button"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:16
+msgid "Reserving Frontend Dashboard"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:47
+#: app/extensions/elementor/widgets/frontend_dashboard.php:385
+msgid "Normal"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:79
+#: app/extensions/elementor/widgets/frontend_dashboard.php:400
+msgid "Height"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:130
+#: app/extensions/elementor/widgets/frontend_dashboard.php:499
+msgid "Border Radius"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:193
+msgid "Transition"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:215
+msgid "Button Floating"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:243
+#: app/extensions/elementor/widgets/frontend_dashboard.php:583
+msgid "Hover"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:261
+msgid "Hover Background"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:270
+#: app/extensions/elementor/widgets/frontend_dashboard.php:279
+msgid "Hover Before Background"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:288
+#: app/extensions/elementor/widgets/frontend_dashboard.php:612
+msgid "Border Color"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:314
+msgid "Box Heading"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:354
+msgid "Heading Display"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:358
+msgid "No Action"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:377
+msgid "Inputs"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:423
+msgid "Max Height"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:566
+msgid "Input Field CSS"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:603
+msgid "focus Background"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:634
+msgid "Label"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:730
+msgid "Lavel Custom CSS"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:745
+msgid "Content"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:755
+#: app/extensions/elementor/widgets/frontend_dashboard.php:756
+msgid "Login as branch manager or delivery man"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:764
+msgid "Login Link"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:766
+msgid "https://your-link.com"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:776
+msgid "Show"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:777
+msgid "Hide"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:786
+msgid "Button Text"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:788
+#: app/extensions/frontend/shortcodes/Frontend_Dashboard.php:123
+msgid "Login"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:789
+msgid "Login Button"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:796
+msgid "Alignment"
+msgstr ""
+
+#: app/extensions/elementor/widgets/frontend_dashboard.php:804
+msgid "Center"
+msgstr ""
+
+#: app/extensions/elementor/widgets/product_extra_item.php:10
+msgid "Reserving Product Extra Items"
+msgstr ""
+
+#: app/extensions/elementor/widgets/product_extra_price.php:10
+msgid "Reserving Product Extra Price"
+msgstr ""
+
+#: app/extensions/frontend/ajax/Ajax.php:62
+msgid "View Cart"
+msgstr ""
+
+#: app/extensions/frontend/ajax/Ajax.php:129
+msgid "Tip Remove"
+msgstr ""
+
+#: app/extensions/frontend/ajax/Ajax.php:141
+msgid "Tip Added"
+msgstr ""
+
+#: app/extensions/frontend/ajax/Ajax.php:175
+msgid "Select Tables:"
+msgstr ""
+
+#: app/extensions/frontend/ajax/Ajax.php:263
+msgid "Select End Time:"
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:184
+msgid "Delivery Type:"
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:189
+msgid "Delivery Type: "
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:195
+msgid "Branch Name:"
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:202
+msgid "Delivery Area:"
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:217
+msgid "Max: "
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:217
+msgid "person"
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:233
+msgid "Date"
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:251
+msgid "Start Time:"
+msgstr ""
+
+#: app/extensions/frontend/order/Order_Modify.php:255
+msgid "End Time:"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/frontend_dashboard/BranchManager.php:51
+#: app/extensions/frontend/shortcodes/frontend_dashboard/DeliveryMan.php:40
+#: app/extensions/frontend/shortcodes/frontend_dashboard/KitchenManager.php:37
+msgid "Welcome Back "
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/frontend_dashboard/BranchManager.php:75
+#: app/extensions/frontend/shortcodes/frontend_dashboard/DeliveryMan.php:64
+#: app/extensions/frontend/shortcodes/frontend_dashboard/KitchenManager.php:62
+msgid "Logout"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:37
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:35
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/kitchen_manager/order_table.php:36
+msgid "All Orders"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/branch_manager/order_table.php:114
+msgid "Delivery|Pickup|Date"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:67
+msgid "Order ID"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:73
+msgid "Delivery Time"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:74
+msgid "Order Status"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/frontend_dashboard/views/delivery_man/order_table.php:75
+msgid "View Order"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/Product_Single.php:69
+#: app/extensions/frontend/shortcodes/Product_Single.php:84
+msgid "Total Price:"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/delivery_checker.php:10
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/delivery_checker.php:24
+#: app/extensions/frontend/shortcodes/views/single_branch/availability_checker/delivery_checker.php:5
+#: app/extensions/frontend/shortcodes/views/single_branch/delivery_info/delivery_checker.php:15
+msgid "Select your location"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/delivery_checker.php:11
+#: app/extensions/frontend/shortcodes/views/single_branch/availability_checker/delivery_checker.php:6
+#: app/extensions/frontend/shortcodes/views/single_branch/delivery_info/delivery_checker.php:16
+msgid "Search Location"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/delivery_checker.php:19
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/delivery_checker.php:34
+#: app/extensions/frontend/shortcodes/views/single_branch/availability_checker/delivery_checker.php:17
+#: app/extensions/frontend/shortcodes/views/single_branch/delivery_info/delivery_checker.php:24
+msgid "Delivery Date:"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/delivery_checker.php:24
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/delivery_checker.php:37
+#: app/extensions/frontend/shortcodes/views/single_branch/availability_checker/delivery_checker.php:21
+#: app/extensions/frontend/shortcodes/views/single_branch/delivery_info/delivery_checker.php:27
+msgid "Delivery Time:"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/in_rest_checker.php:9
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/in_rest_checker.php:8
+#: app/extensions/frontend/shortcodes/views/single_branch/availability_checker/in_rest_checker.php:3
+#: app/extensions/frontend/shortcodes/views/single_branch/delivery_info/in_rest_checker.php:3
+msgid "Choose Date:"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/pickup_checker.php:8
+#: app/extensions/frontend/shortcodes/views/single_branch/availability_checker/pickup_checker.php:3
+#: app/extensions/frontend/shortcodes/views/single_branch/delivery_info/pickup_checker.php:2
+msgid "Pickup Date"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/views/multi_branch/availability_checker/pickup_checker.php:12
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/pickup_checker.php:12
+#: app/extensions/frontend/shortcodes/views/single_branch/availability_checker/pickup_checker.php:7
+#: app/extensions/frontend/shortcodes/views/single_branch/delivery_info/pickup_checker.php:5
+msgid "Pickup Time"
+msgstr ""
+
+#: app/extensions/frontend/shortcodes/views/multi_branch/delivery_info/pickup_checker.php:8
+msgid "Pickup Date:"
+msgstr ""
+
+#: app/helpers/generals.php:817
+msgid "Select Template"
+msgstr ""
+
+#: app/serviceProviders/App/Notice.php:26
+msgid "Click to Install"
+msgstr ""
+
+#: app/serviceProviders/App/Notice.php:31
+msgid "Click to Activate"
+msgstr ""
+
+#: app/serviceProviders/App/Notice.php:35
+msgid " Click to Install "
+msgstr ""
+
+#: app/serviceProviders/App/Notice.php:55
+msgid "\"%1$s\" requires \"%2$s\""
+msgstr ""
+
+#: app/serviceProviders/App/Notice.php:57
+#: app/serviceProviders/App/Notice.php:64
+msgid "WooCommerce"
+msgstr ""
+
+#: app/serviceProviders/App/Notice.php:62
+msgid "\"%1$s\" requires \"%2$s\" %3$s"
+msgstr ""
+
+#: packages/Options/Fields/Audio.php:87
+#: packages/Options/Fields/Media.php:94
+msgid "Upload"
+msgstr ""
+
+#: packages/Options/Fields/Audio.php:89
+#: packages/Options/Fields/Media.php:97
+#: packages/Options/Fields/Repeat.php:162
+msgid "Delete"
+msgstr ""
+
+#: packages/Options/Fields/Media.php:102
+msgid "image"
+msgstr ""
+
+#: packages/Options/Fields/Post_Select.php:26
+#: packages/Options/Fields/Select.php:27
+msgid "Select"
+msgstr ""
+
+#: packages/Options/Fields/Post_Select.php:56
+msgid "Post type does not exist!"
+msgstr ""
+
+#: packages/Options/Fields/Post_Select.php:97
+#: packages/Options/Fields/Select.php:90
+msgid "Nothing found."
+msgstr ""
+
+#: packages/Options/Fields/Repeat.php:92
+msgid "Edit"
+msgstr ""
+
+#: packages/Options/Fields/Repeat.php:118
+#: packages/Options/Fields/Repeat.php:153
+msgid "The field type does not exisits, please check your code."
+msgstr ""
+
+#: packages/Options/Fields/Repeat.php:128
+msgid "Remove"
+msgstr ""
+
+#: packages/Options/Fields/Repeat.php:168
+msgid "Add"
+msgstr ""
+
+#: packages/Options/Fields/Settings.php:134
+msgid "This field type does not exists, please check your code."
+msgstr ""
+
+#: packages/Options/Fields/Settings.php:182
+msgid "Settings updated!"
+msgstr ""
+
+#: packages/Options/Fields/Settings.php:213
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: packages/Options/Fields/ShortCode.php:70
+msgid "Copy"
+msgstr ""
+
+#: packages/Options/Fields/Views.php:84
+#: packages/Options/Fields/Views.php:107
+msgid "Save Changes"
+msgstr ""
+
+#: packages/Options/Fields/Views.php:105
+msgid "Reset"
+msgstr ""
+
+#: packages/Options/MetaBox_Api.php:49
+msgid "General"
+msgstr ""
+
+#: app/extensions/frontend/build/blocks/availability-checker/block.json
+msgctxt "block title"
+msgid "Reserving Availability checker"
+msgstr ""
+
+#: app/extensions/frontend/build/blocks/availability-checker/block.json
+msgctxt "block description"
+msgid "Frontend Availability Checker"
+msgstr ""
+
+#: app/extensions/frontend/build/blocks/frontend-dashboard/block.json
+msgctxt "block title"
+msgid "Reserving Frontend Dashboard"
+msgstr ""
+
+#: app/extensions/frontend/build/blocks/frontend-dashboard/block.json
+msgctxt "block description"
+msgid "Frontend Dashboard For Reserving plugin . Which use Manager and Delivery Man."
+msgstr ""

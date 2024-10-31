@@ -1,0 +1,51 @@
+{
+  "apiVersion": 2,
+  "name": "qs-reserving/frontend-dashboard",
+  "version": "0.1.0",
+  "title": "Reserving Frontend Dashboard",
+  "category": "widgets",
+  "icon": "index-card",
+  "description": "Frontend Dashboard For Reserving plugin . Which use Manager and Delivery Man.",
+  "attributes": {
+    "textAlign": {
+      "type": "string",
+      "default": "left"
+    },
+    "radiologinformField": {
+      "type": "string",
+      "default": "yes"
+    },
+    "checkboxField": {
+      "type": "boolean",
+      "default": true
+    },
+    "headingField": {
+      "type": "string"
+    },
+    "buttonlField": {
+      "type": "string"
+    },
+    "buttonlColorField": {
+      "type": "string",
+      "selector": ".button"
+    },
+    "buttonlabelColorField": {
+      "type": "string",
+      "selector": "label"
+    },
+    "buttonlbgColorField": {
+      "type": "string"
+    },
+    "button_style": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "reserving",
+  "render_callback": "reserving_frontend_dashboard_optins_dynamic_render_callback",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

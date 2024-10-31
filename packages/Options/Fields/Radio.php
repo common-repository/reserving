@@ -1,0 +1,88 @@
+<?php  
+
+namespace Reserving_Packages\Options\Fields;
+
+class Radio extends Base_Field {
+
+	/**
+	 * __construct
+	 *
+	 * This function will setup the field type data
+	 * 
+	 * @since 1.0.0
+	 * @return void
+	 */
+	public function __construct( $field, $value, $parent ) {
+		//vars
+		$this->parent = $parent;
+		$this->option_name = $field['option_name'];
+		$this->option_id   = parent::beautifyid($field['option_name']);
+
+		$this->value = $value;
+		$this->field = wp_parse_args( $field, array(
+			'id'			=> '',
+			'title'			=> '',
+			'desc'			=> '',
+			'default' 		=> '',
+			'readonly'		=> false,
+			'style'			=> 1,
+			'options'		=> null,
+		) );
+
+		// If value does not set, use the default
+		if( is_null($this->value) ) {
+			$this->value = $this->field['default'];
+		}
+
+
+		parent::__construct($this->field);
+	}
+
+ 	/**
+	 * Render field
+	 *
+	 * Create the HTML interface for your field
+	 *
+	 * @param $field - an array holding all the field's data
+	 *
+	 * @since 1.0
+	 * @return void
+	 */
+	public function render_field($label = false) {
+
+		if($label):
+		   echo wp_kses_post( sprintf('<div class="ray-form-field option-radio-wrapper"><label class="ray-option-label"> %s </label>', esc_html($this->field['title'])));
+	    endif; 
+		foreach ($this->field['options'] as $key => $label) {
+			if( $this->field['style'] == 2 ) {
+		?>
+			<label for="<?php echo esc_attr($this->option_name); ?>" style="display:inline-block;margin-right:10px;">
+				<input type="radio" name="<?php echo esc_attr($this->option_name); ?>" id="<?php echo esc_attr($this->option_id); ?>" value="<?php echo esc_attr($key); ?>" <?php checked( $key, $this->value, true ); ?> >
+				<?php echo esc_html($label); ?>
+			</label>
+		<?php
+			}else{
+		?>
+			<input type="radio" name="<?php echo esc_attr($this->option_name); ?>" id="<?php echo esc_attr($this->option_id); ?>" value="<?php echo esc_attr($key); ?>" <?php checked( $key, $this->value, true ); ?> >
+			<span class="description"><?php echo esc_html($label); ?></span>
+			<br>
+		<?php
+			}
+		}
+		?>
+			<p class="description" style="margin-top:15px;"><?php echo esc_html($this->field['desc']); ?></p>
+		<?php if($label): ?>
+		</div>
+		<?php endif;	 
+	}
+
+	public function sanitize( $value ) {
+		$sanitize_value = $value;
+		return $sanitize_value;
+	}
+
+}
+
+
+
+?>
